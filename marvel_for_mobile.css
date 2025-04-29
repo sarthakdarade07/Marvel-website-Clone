@@ -1,0 +1,327 @@
+  *{
+    margin: 0;
+    border: border-box;
+}
+@media only screen and (max-width:550px) {
+  
+   .header_container{
+    height: 55px;
+    background-color: #202020;
+    width: 100%;
+    display: flex;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container_content{
+    padding: 5px 0px;
+    border:1.5px solid #5F5E5F;
+    height: 40px;
+   border-left: none; 
+}
+.content1{
+    width: 20px;
+}
+.content2 img{
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 2px;
+    width: 5vw;
+}
+
+.content2 img{
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 2px;
+    
+}
+
+.content2{
+    color: #F1FFFF;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: calc(50% - 20px);
+}
+
+.content2 p{
+     margin-right: 5px;
+}
+
+.content3{
+    width:calc(90% - 20px);
+    display: flex;
+}
+.content3 img{
+   width: calc(80% - 20px);
+   height: 90%;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+}
+
+.content4{
+    width: cal(20% - 20px);
+    display: flex;
+     align-items: center; 
+   justify-content: center;
+   color: #F1FFFF;
+   font-size: 8px;
+}
+.content4 img{
+   width: 5vw;
+   height: 3vwpx;
+}
+
+.content5{
+    color: #F1FFFF;
+    font-size: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav_lower{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 3vw;
+}
+
+.box{
+    width: 25%;
+    display: flex;
+    color: #F1FFFF;
+   
+}
+
+.box3{
+    width: 100px;
+}
+
+.promo_head{
+    height: 40px;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    color: #F1FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.promo_head img{
+    height: 30px;
+  margin-left: 5px;
+}
+
+.slider{
+    overflow: hidden;
+}
+ .slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+animation: slider 20s step-end 0s infinite normal none;
+ }
+ .i1{
+    height: 30vh;
+    width: 100vw;
+}
+.i3{
+     height: 30vh;
+    margin: 0%;
+    background-size: cover;
+}
+.slider figure img{
+    /* float: left; */
+    width: 20%;
+    margin: 0;
+}
+
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    25%{
+       left: -100%;
+    }
+     50%{
+        left: -200%;
+    }
+     75%{ 
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+
+.animation_filler{
+    height: 5px;
+    width: 100%;
+   
+}
+.mover{
+ background-color: red;
+ width: 100%;
+ height:5px;
+animation: fill 20s ease-in-out 0s infinite normal none;
+}
+@keyframes fill{
+0%{
+    width: 0%;
+}
+25%{
+    width: 25%;
+}
+50%{
+    width: 50%;
+}
+75%{
+    width: 75%;
+}
+100%{
+    width: 100%;
+}
+}
+
+.add_name{
+    display:flex;
+    height: 60px;
+    margin-top: 3px;
+   justify-content: space-evenly;
+}
+.add_name_content{
+    height: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   font-size: 10px;
+   font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c1{
+    animation: color_text1 20s step-start 0s infinite normal none;
+}
+.c2{
+    animation: color_text2 20s step-start 0s infinite normal none;
+}
+
+.c3{
+    animation: color_text3 20s step-start 0s infinite normal none;
+}
+
+.c4{
+    animation: color_text4 20s step-start 0s infinite normal none;
+}
+
+@keyframes color_text1{
+    0%{color:black}
+    25%{color: red}
+    50%{color:black}
+    75%{color:black}
+    100%{color: black}
+}
+
+@keyframes color_text2{
+    0%{color:black}
+    25%{color: black}
+    50%{color:red}
+    75%{color:black}
+    100%{color: black}
+}
+
+@keyframes color_text3{
+    0%{color:black}
+    25%{color: black}
+    50%{color:black}
+    75%{color:red}
+    100%{color: black}
+}
+
+@keyframes color_text4{
+    0%{color:black}
+    25%{color: black}
+    50%{color:black}
+    75%{color:black}
+    100%{color: red}
+}
+
+.social_media{
+    margin-left: 150px;
+    margin-top:-30px;
+    margin-left: 40%;
+}
+.social_media i{
+    font-size: 20px;
+    justify-content: space-around;
+    
+}
+
+.set_main{
+height: 60vh;
+background-image: url("Image/unlimited\ marval\ suscription.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.set_main_eyebrow{
+    height: 20%;
+    font-size: 15px;
+    width: 300px;
+    color: #F1FFFF;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family:Verdana;
+}
+
+.set_main_title{
+    height: 50px;
+    font-size: 20px;
+    width: 60vw;
+    color: #F1FFFF;
+    position: relative;
+    top: -60px;
+    left: 10px;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+}
+.set_main_description{
+     height: 50px;
+    font-size: 10px;
+    width: 30%;
+    color: #F1FFFF;
+    position: relative;
+    top: -60px;
+    left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.set_main button{
+    height: 25px;
+    position: relative;
+    top: -70px;
+    left: 20px;
+    width: 25vw;
+    background:none;
+    color: #F1FFFF;
+    border: 2px solid #F1FFFF;
+    transform: skewx(-30deg);
+    font-family: Verdana;
+    font-size: 8px;
+}
+
+.set_main button:hover{
+    background-color:#c60e0e;
+}
+}

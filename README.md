@@ -49,8 +49,7 @@ This is a front-end clone project inspired by Marvel's official website. It is d
 ---
 
 ## 📸 Screenshots
-
-_You can add screenshots here to visually demonstrate your UI design._
+<img src="Image\ScreenShot-1.png">
 
 ---
 
